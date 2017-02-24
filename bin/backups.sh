@@ -37,4 +37,3 @@ echo "tar $FLAGS $DEST/backups.$DAY.tbz /minecraft /run /etc /var /home /boot 2>
 
 #echo "tar -tzvf $DEST/backups.$DAY.tgz > /tmp/backups/backups.$DAY.out"|at 03:00
 echo "tar -jtvf $DEST/backups.$DAY.tbz > /tmp/backups/backups.$DAY.out"|at 03:00
-# adding a test line to branch test
